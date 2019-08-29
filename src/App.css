@@ -1,33 +1,143 @@
-.App {
-  text-align: center;
+.link1 {
+  margin-left: 30px;
+  font-family: 'Cinzel', serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.name_web{
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mr-auto .link1 {
+  text-decoration: none;
+}
+
+.teks h1{
+  padding: 80px 0 0 50px;
+  font-family: 'Bad Script', cursive;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.teks h5{
+  padding: 10px 0 0 60px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.page {
+  background-image: url(https://footpatrolblog.s3.amazonaws.com/wp-content/uploads/2019/07/Air-Jordan-4-Cool-Grey-Blog-T-1.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  background: grey;
+  height: 100vh;
+}
+
+.about{
+  background-image: url(https://live.staticflickr.com/7449/9254480107_69bbdfb74f_b.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile{
+  background-image: url(https://wallpapercave.com/wp/tmx6W6N.png);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ h2{
+  font-family: 'Bilbo Swash Caps', cursive;
+   color: rgb(238, 73, 23);
+  margin-top: 60px;
+  margin-left: -200px;
+}
+
+.logo {
+  width: 40%;
+  margin: 130px 0 0 0;
+}
+
+.logo1 {
+  width: 40%;
+  margin: 130px 0 0 0;
+}
+
+.medsos{
+  width: 10%;
+  margin-left: -200px;
+  margin-top: 60px;
+}
+
+ h3{
+   margin-left: -100px;
+   margin-top: -50px;
+  color: red;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+}
+
+@media(max-width: 768px){
+  h2{
+    margin-top: 40px;
+    margin-left: -130px;
   }
-  to {
-    transform: rotate(360deg);
+  .logo {
+    width: 50%;
+  }
+  h3{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: -50px;
+  }
+  .medsos{
+    margin-left: -100px;
+  }
+  .logo1 {
+    width: 60%;
+    margin: 130px 0 0 0;
+  }
+}
+
+@media(max-width: 425px){
+  h2{
+    margin-top: 30px;
+    margin-left: -110px;
+  }
+  .medsos{
+    margin-left: -70px;
+  }
+  h3{
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+  .link1 {
+    margin-left: 5px;
+  }
+}
+
+@media(max-width: 425px){
+  .name_web{
+    font-size: 15px;
+    width: 100%;
+  }
+  .link1 {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .medsos{
+    margin-left: -70px;
+  }
+  h3{
+    font-size: 17px;
+    margin-top: -30px;
+    margin-left: -40px;
   }
 }
